@@ -15,9 +15,10 @@ The dataset is an artificial set of face mask images
 * Import Required Libraries
 * Load and Preprocess the dataset
 * Split the dataset
+* Create Training and Validation Data Generators using Keras ImageDataGenerator function
 * Encode the categorical data
 * Visualize Images
-* Build Basic CNN Model and build a model using MobileNetV2 transfer learning
+* Build Basic CNN Model and also build a model using MobileNetV2 (transfer learning)
   * Compile the model
   * Fit the model
   * Check accuracy,val_accuracy,loss,val_loss
