@@ -10,3 +10,16 @@ The dataset is an artificial set of face mask images
   * with_mask images: 
   * without_mask images: 
 * The goal is to create a Deep Learning model to detect in real-time whether a person is wearing a face mask or not
+
+## Model Building
+* Import Required Libraries
+* Load and Preprocess the dataset
+* Split the dataset
+* Encode the categorical data
+* Visualize Images
+* Build Basic CNN Model and build a model using MobileNetV2 transfer learning
+  * Compile the model
+  * Fit the model
+  * Check accuracy,val_accuracy,loss,val_loss
+  * Predict new images
+* Using OpenCV detect face mask of people in a video using model build
