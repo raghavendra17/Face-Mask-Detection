@@ -23,4 +23,5 @@ The dataset is an artificial set of face mask images
   * Fit the model
   * Check accuracy,val_accuracy,loss,val_loss
   * Predict new images
-* Using OpenCV detect face mask of people in a video using model build
+* Once model is trained, test it using a webcam using OpenCV, and detect the Face Masks in real-time
+
